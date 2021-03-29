@@ -7,10 +7,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Filometro CoVID19</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header class="container">
+        <div class="logo_1">
+            <h1>CLONE_FILÔMETRO</h1>
+            <P>CONSULTA DE LOCAL DE VACINAÇÃO</P>
+        </div>
+        <div class="logo_2">
+            <img src="./img/logo-pms.png" alt="Logo da prefeitura de salvador bahia">
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main_header">
+            <div class="card">
+                <i class="fas fa-clinic-medical"></i>
+                <P>POSTOS ATIVOS</P>
+                <P>10</P>
+            </div>
+            <div class="card">
+                <i class="fas fa-syringe"></i>
+                <P>VACINADOS HOJE (1ª E 2ª DOSES)</P>
+                <P>10.564</P>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <P>MÉDIA GERAL DRIVE THRU</P>
+                <P>Sem filas</P>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <P>MÉDIA GERAL PONTOS FIXOS</P>
+                <P>Moderadas</P>
+            </div>
+        </div>
+
+        <div class="main_body">
+            <h1><i class="fas fa-chevron-down"></i> LOCAIS DE VACINAÇÃO</h1>
+            <div class="button">
+                <a href="#"><i class="fas fa-car"></i>DRIVE THRU</a>
+                <a href="#"><i class="fas fa-male"></i>PEDESTRE</a>
+            </div>
+
+            <section class="type">
+                <div class="type_header">
+                    <h3>DRIVE THRU</h3>
+                    <i class="fas fa-truck-pickup"></i>
+                    <i class="fas fa-motorcycle"></i>
+                    <i class="fas fa-car-side"></i>
+                </div>
+                <div class="type_body">
+                    <div class="card_list">
+                        <div class="localization">
+                            <h4>Unijorge Paralela</h4>
+                            <p>Av. Luís Viana Filho, 6775 - São Marcos, Salvador - Ba, 41680-400</p>
+                            <p><i class="far fa-clock"></i> ATUALIZADO 9:30:55</p>
+                            <p><i class="fas fa-car"></i> 1ª E 2º DOSES - IDOSO</p>
+                        </div>
+
+                        <div class="status">
+                            <p>SITUAÇÃO</p>
+                            <P id="status_fila">SEM FILA</P>
+                        </div>
+                    </div>
+                    <div class="card_list">
+                        <div class="localization">
+                            <h4>5º Centro de Saúde Clementino Fraga</h4>
+                            <p>Av. Centenário, s/n - Garcia, Salvador - BA, 46100-000</p>
+                            <p><i class="far fa-clock"></i> ATUALIZADO 9:30:55</p>
+                            <p><i class="fas fa-car"></i> 1ª E 2º DOSES - IDOSO</p>
+                        </div>
+
+                        <div class="status">
+                            <p>SITUAÇÃO</p>
+                            <P id="status_fila">SEM FILA</P>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="type">
+                <div class="type_header">
+                    <h3>PEDESTRE</h3>
+                    <i class="fas fa-male"></i>
+                    <i class="fas fa-female"></i>
+                    <i class="fas fa-female"></i>
+                </div>
+                <div class="type_body">
+                    <div class="card_list">
+                        <div class="localization">
+                            <h4>5º Centro de Saúde Clementino Fraga</h4>
+                            <p>Av. Centenário, s/n - Garcia, Salvador - BA, 46100-000</p>
+                            <p><i class="far fa-clock"></i> ATUALIZADO 9:30:55</p>
+                            <p><i class="fas fa-male"></i> 1ª E 2º DOSES - IDOSO</p>
+                        </div>
+
+                        <div class="status">
+                            <p>SITUAÇÃO</p>
+                            <P id="status_fila">SEM FILA</P>
+                        </div>
+                    </div>
+                    <div class="card_list">
+                        <div class="localization">
+                            <h4>Fundação Bahiana para Desenvolvimento das Ciências - Brotas</h4>
+                            <p>Av. Dom João VI, 275 - Brotas, Salvador - BA, 40290-000</p>
+                            <p><i class="far fa-clock"></i> ATUALIZADO 9:30:55</p>
+                            <p><i class="fas fa-male"></i> 1ª DOSE - TRABALHADORES DA SAÚDE E PROFISSIONAIS AUTÔNOMOS
+                            </p>
+                        </div>
+
+                        <div class="status">
+                            <p>SITUAÇÃO</p>
+                            <P id="status_fila">SEM FILA</P>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="footer">
+            <p>DEVELOPED BY</p>
+            <P>&copy BELICIO BATISTA CARDOSO</P>
+        </div>
+    </footer>
+
+
+
     <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/23d1099242.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
